@@ -96,7 +96,7 @@ export default {
       redirect: undefined
     }
   },
-  watch: {
+      watch: {
     $route: {
       handler: function(route) {
         this.redirect = route.query && route.query.redirect
